@@ -26,14 +26,12 @@ Sometimes is useful to scale the data, which is the pre process that suffer the 
 - Quantile bucketing : Is the features distribution withing buckets, the next example have 4 buckets. They serve to expect some "behaviour". We need to avoid columns with these anomalies or at least be more careful.
 
 <img src="https://developers.google.com/static/machine-learning/glossary/images/QuantileBucketing.svg"  width="400">
+
 - Also remember to select the correct features that correlate the label.
 - In **practice** we should make predictions that are not used in training.
 - Synthetic feature : a feature not present among the input features, and it could be created scalling or combining other features.
 - `training_df.corr()` produces correlations where: 
-    * 1.0 : Perfect positive correlation, when 1 attribute rises, the other attribute rises.
-    * 0.0 : No correlation.
-    * -1.0: Perfect negative correlation, when 1 attribute rises, the other attribute falls.
+  * 1.0 : Perfect positive correlation, when 1 attribute rises, the other attribute rises.
+  * 0.0 : No correlation.
+  * -1.0: Perfect negative correlation, when 1 attribute rises, the other attribute falls.
 In general, when a higher absolute value, the greater is the predictive power. But correlation don't tell the entire story.
-
-Last page was generalization
-
