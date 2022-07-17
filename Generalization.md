@@ -21,5 +21,16 @@ With that on mind we need to take care of our metrics, because these assumptions
 
 - And also, remember, don't over-fit your model, this could result in "bad predictions", because in that cases we don't have like a "tolerance".
 
+---
+
+A good low loss model in training tends to produce a poor job predicting new data, and overfitting is produced by making a model more complex than necessary.
+
+- The fundamental tension of machine learning is between fitting our data well, but also fitting the data as simply as possible.
+* Generalization bounds: A statistical description of model's ability to generalize to new data based on:
+  - The complexity of the model.
+  - The model's performance on training data.
+---
+Generalization is more about to give a model tolerance to new unseen-data.
 
 
+Our last thing what training and test set (25 min)
