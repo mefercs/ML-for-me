@@ -31,6 +31,3 @@ A good low loss model in training tends to produce a poor job predicting new dat
   - The model's performance on training data.
 ---
 Generalization is more about to give a model tolerance to new unseen-data.
-
-
-Our last thing what training and test set (25 min)
