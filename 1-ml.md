@@ -72,7 +72,7 @@ Even that could result noisy, is better than SGD and Full-batch SGD.
 
 
 `Epoch:`Is a Hyperparameter that tell us the complete passes through the training set.
-It's between full-batch iteration and SGD, it uses bathches of 10-1000 stochastic examples.
+It's between full-batch iteration and SGD, it uses batches of 10-1000 stochastic examples.
 Reduces the amount of noise, but it's still more efficient that SGD and full-batch. Stochastic: Ramdom value.
 `noise:`How many times the model is going to see the same data.
 
