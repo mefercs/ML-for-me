@@ -18,3 +18,7 @@ test: 230
 traning: 233
 val: 235
 
+
+L_1 loss is abs( y - y' )
+L_2 loss is  (y - y')`**2`
+
